@@ -563,8 +563,8 @@ function simplesamlphp_auth_block($op = 'list', $delta = 0, $edit = array()) {
       array(
         'info' => t('simpleSAMLphp authentication'),
         'weight' => 0,
-        'status' => 1,
-        'region' => 'left',
+        'status' => 0,
+        'region' => '',
         'cache'   => BLOCK_NO_CACHE
       )
     );
